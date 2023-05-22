@@ -8,6 +8,6 @@ public class TestRunner {
 	// you can use tags() method to specify the Tags.
 	@Karate.Test
 	public Karate runTests() {
-		return Karate.run("classpath:features").tags("Smoke", "Regression");
+		return Karate.run("classpath:features").tags("Regression");
 	}
 }
