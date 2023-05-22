@@ -13,3 +13,5 @@ Feature: API Plan Code Test
     When method get
     Then status 200
     And print response
+    And response[0].planExpired == false
+	
