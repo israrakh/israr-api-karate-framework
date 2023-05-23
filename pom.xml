@@ -6,7 +6,7 @@
 	<name>Dragons Karate Framework</name>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.terget>11</maven.compiler.terget>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
