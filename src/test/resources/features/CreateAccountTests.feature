@@ -15,7 +15,7 @@ Feature: Create Account Test
     And header Authorization = "Bearer " + generatedToken
     * request
       """
-      {"email": "afghan779@gmai.com",
+      {"email": "afghan777@gmai.com",
       "firstName": "Israr",
       "lastName": "Afg",
       "title": "Mr.",
@@ -28,4 +28,4 @@ Feature: Create Account Test
     When method post
     Then status 201
     And print response
-    * assert response.email == "afghan779@gmai.com"
+    * assert response.email == "afghan777@gmai.com"
