@@ -1,3 +1,4 @@
+@Regression
 Feature: Testing Get All Accounts API
 
   Background: Setup API
