@@ -1,4 +1,4 @@
-@Smoke @Regression 
+
 Feature: Create Account Test
 
   Background: Setup Test URL
