@@ -96,4 +96,4 @@ Feature: End To End Account Testing
     When method get
     Then status 200
     And print response
-		And assert response.primaryPerson.email == autoEmail
+    And assert response.primaryPerson.email == autoEmail
