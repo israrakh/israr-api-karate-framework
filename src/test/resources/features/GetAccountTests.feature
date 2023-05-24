@@ -1,4 +1,4 @@
-@Smoke @Regression
+@Regression
 Feature: Get Account API
 
   Background: Test Setup
