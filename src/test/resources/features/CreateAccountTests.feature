@@ -1,4 +1,4 @@
-@Smoke @Regression 
+
 Feature: Create Account Test
 
   Background: Setup Test URL
@@ -15,7 +15,7 @@ Feature: Create Account Test
     And header Authorization = "Bearer " + generatedToken
     * request
       """
-      {"email": "afghan777@gmai.com",
+      {"email": "afghan7777@gmai.com",
       "firstName": "Israr",
       "lastName": "Afg",
       "title": "Mr.",
@@ -28,4 +28,4 @@ Feature: Create Account Test
     When method post
     Then status 201
     And print response
-    * assert response.email == "afghan777@gmai.com"
+    * assert response.email == "afghan7777@gmai.com"
